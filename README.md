@@ -31,16 +31,16 @@ Implementation using C or pyhton code
 
 ## PROGRAM:
   #include <stdio.h>
-#include <string.h>
-#include <ctype.h>
-void main()
-{
- char plain[10], cipher[10];
- int key,i,length;
- int result;
- printf("\n Enter the plain text:");
- scanf("%s", plain);
- printf("\n Enter the key value:");
+ #include <string.h>
+ #include <ctype.h>
+ void main()
+ {
+  char plain[10], cipher[10];
+  int key,i,length;
+  int result;
+  printf("\n Enter the plain text:");
+  scanf("%s", plain);
+  printf("\n Enter the key value:");
  scanf("%d", &key);
  printf("\n \n \t PLAIN TEXt: %s",plain);
  printf("\n \n \t ENCRYPTED TEXT: ");
