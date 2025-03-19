@@ -30,8 +30,7 @@ Implementation using C or pyhton code
 
 
 ## PROGRAM:
-
-#include <stdio.h>
+  #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
 void main()
@@ -65,6 +64,8 @@ if (isupper(plain[i]) && (cipher[i] > 'Z'))
  printf("%c",plain[i]);
  }
 }
+
+
 
 
 ## OUTPUT:
